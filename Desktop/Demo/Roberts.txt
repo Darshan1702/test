@@ -1,0 +1,44 @@
+[1] Richard Roberts, Daniela Lulli, Abolee Raut, Kelsey R. Fulton, and Dave Levin “Mental Models of Domain Names and URLs” , 2020.
+[2] Richard Roberts, Yaelle Goldschalag, Rachel Walter, Taejoong Chung “You Are Who You Appear to Be: A Longitudinal Study of Domain Impersonation in TLS Certificates”, November 2019
+[3] Shaun Egan, Barry Irwin“An evaluation of lightweight classification methods for identifying malicious URLs”, 2018
+[4] S.Sountharajan, M.Nivashini, Shishir K Shandilya, M.Karthinga “Dynamic Recognition of Phishing URLs Using Deep Learning Techniques”, 07 January 2020
+[5] A. Banerjee, D.Barman, M.Faloustsos, L.N.Bhuyan“Cyber-Fraud is One Typo Away”
+2018
+[6] Wei Wei, Qiao Ke, Jakub Nawak, marcin Korytkowski “Accurate and fast URL phishing detector: A convolutional neural network approach" Volume 178, 4 September 2020
+[7] Taeri Kim, Noseong Park, Jiwon Hong, Sang-Wook Kim “Phishing URL Detection: A Network-based Approach Robust to Evasion” November 2020
+[8]  N. VENKATESH, V. TEJASWINI, G. SOUMYA,T. SHIVA PRIYA “MALICIOUS URL DETECTION USING MACHINE LEARNING”, Volume 14, No:02, 2023
+
+[9] Ali Aliofey, Qingshan Jiang, Abdur rasool, Hui Chen, Wenyin Liu, Qiang Qu and Yang Wang “An effective detection approach for phishing websites using URL and HTML features”, 25 May 2022
+[10]Altug Tosun, Michele De Donno, Nicola Dragoni, Xenofon Fafoutis "RESIP Host Detection: Identification of Malicious Residential IP Proxy Flows" 2021
+[11]Nisha T N, Digant Bakari, Charmi Shukla "Business E-mail Compromise — Techniques and Countermeasures" 2021
+[12]HF Atlam, O Oluwatimilehin "Business Email Compromise Phishing Detection Based on Machine Learning: A Systematic Literature Review" 2022.
+
+
+
+
+[13] Guo Pu, Lijuan Wang,Jun Shen, and Fang Dong "A Hybrid Unsupervised Clustering-Based Anomaly Detection Method" Volume 26, Number 2, April 2021.
+[14] A. L. Buczak and E. Guven, A survey of data mining and machine learning methods for cyber security intrusion detection, IEEE Communications Surveys Tutorials, vol. 18, no. 2, 2016.
+
+[16] R. C. Joshi, and Shashikala Tapaswi “Image similarity: A genetic algorithm based approach” 2007
+[17] Cornell University “RTED: A Robust Algorithm for the Tree Edit Distance” 2019
+[18] Aviad Rubinstein and Zhao Song “Reducing approximate Longest Common Subsequence to approximate Edit Distance” 2020
+
+[18] Florian Quinkert; Tobias Lauinger; William Robertson; Engin Kirda; Thorsten Holz "It's Not what It Looks Like: Measuring Attacks and Defensive Registrations of Homograph Domains" 19 August 2019
+[19] Jitendra Kumar; A. Santhanavijayan; B. Janet; Balaji Rajendran; B.S. Bindhumadhava "Phishing Website Classification and Detection Using Machine Learning".
+[20] Majid Raissi-Dehkordi; David Carr "A multi-perspective approach to insider threat detection.
+
+
+
+
+
+
+[21] Manuel Lopez Martin, Belen Carro, Antonio Sanchez Esguevilllas “Application of deep reinforcement learning to intrusion detection for supervised problems”  Volume 141, 1st March 2020.
+[22] Meixin Peng, Zhanshan Li, Xin Juan “Similarity based domain adaptation network” Volume 493, 7th July 2022.
+[23] David Acuna, Guojun Zhang, Marc T. Law, Sanja Fidler “f-Domain Adversarial Learning: Theory and Algorithms” Volume 139, 2021.
+
+
+[24] Sánchez-Paniagua, Manuel, et al. "Phishing URL detection: A real-case scenario through login URLs." IEEE Access 10 (2022): 42949-42960.
+
+Lexical analysis is the process of breaking down a text into its component parts, such as words, phrases, and punctuation marks.
+Some examples of lexical features include:
+Word count, Average word length.

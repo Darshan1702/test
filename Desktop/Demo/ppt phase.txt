@@ -1,0 +1,97 @@
+6. Accurate and fast URL phishing detector: A convolutional neural network approach
+(https://www.sciencedirect.com/science/article/abs/pii/S1389128620301109 )  2020
+
+
+meathod:-
+To detect fake URLs, CNNs are trained on a large dataset of fake and legitimate URLs. The CNN learns to extract features from the URLs that are predictive of whether they are fake or legitimate.
+Once the CNN is trained, it can be used to detect fake URLs by simply feeding it a new URL and seeing what it predicts. If the CNN predicts that the URL is fake, then it is likely to be fake.
+
+Disadvantages:-
+Computational complexity: CNNs can be computationally expensive to train and run, especially for large datasets.
+Overfitting: CNNs are prone to overfitting, which can lead to poor performance on new data.
+Interpretability: CNNs are complex models, and it can be difficult to understand how they work and why they make certain predictions.
+Data requirements: CNNs require large amounts of labeled data to train effectively. This can be a challenge for some applications where labeled data is scarce.
+Sensitivity to noise: CNNs can be sensitive to noise in the data. If the data is noisy or incomplete, the model may not learn correctly.
+
+accuracy :- 99%
+
+
+8. MALICIOUS URL DETECTION USING MACHINE LEARNING
+(https://www.turcomat.org/index.php/turkbilmat/article/view/13684/9828 )    2023
+
+Lexical analysis is the process of breaking down a text into its component parts, such as words, phrases, and punctuation marks. Lexical features are features that can be extracted from text without the need for any external data sources. Some examples of lexical features include:
+Word count: The number of words in the text.
+Unique word count: The number of unique words in the text.
+Average word length: The average length of the words in the text.
+Presence of certain keywords: The presence or absence of certain keywords in the text.
+Lexical analysis can be used for a variety of tasks, including text classification, sentiment analysis, and machine translation.
+
+Host-based features are features that can be extracted from the hostname of a URL. Some examples of host-based features include:
+Domain name: The domain name of the URL.
+IP address: The IP address of the URL.
+TLD: The top-level domain of the URL (e.g., .com, .net, .org).
+Subdomain: The subdomain of the URL.
+
+Accuracy:- 90%
+
+datasets:-
+Phishing datasets: These datasets contain collections of known phishing URLs. Some examples of phishing datasets include the Phishtank dataset and the OpenPhish dataset.
+Malicious domain lists: These lists contain known malicious domains. Some examples of malicious domain lists include the Malicious Domain List (MDL) and the DShield Blocklist.
+
+
+10. RESIP Host Detection: Identification of Malicious Residential IP Proxy Flows
+( https://ieeexplore.ieee.org/abstract/document/9427688 )  2021
+
+Uses:-
+Distributed denial-of-service (DDoS) attacks: RESIP is designed to be resistant to DDoS attacks by distributing traffic across a large number of nodes.
+Man-in-the-middle attacks: RESIP uses cryptography to authenticate and encrypt traffic, making it more difficult for attackers to intercept or modify data in transit.
+Routing attacks: RESIP uses a new routing protocol that is more secure and resilient to attacks than the current routing protocol.
+
+features:-
+Improved congestion control: RESIP uses a new congestion control algorithm that is designed to improve the performance of the internet during periods of congestion.
+Improved error correction: RESIP uses a new error correction algorithm that is designed to improve the reliability of the internet in the presence of errors.
+Improved quality of service (QoS): RESIP supports QoS features that allow applications to specify their bandwidth and latency requirements. This can help to ensure that applications that require high bandwidth or low latency have access to the resources they need.
+
+Drawbacks:-
+Complexity: RESIP is a complex protocol, and it may be difficult to implement and deploy.
+Performance overhead: RESIP's security features may introduce some performance overhead.
+Interoperability: RESIP is not yet interoperable with the current internet protocol. This means that devices that use RESIP will not be able to communicate with devices that use the current internet protocol.
+Scalability: RESIP has not yet been tested at scale. It is not clear whether RESIP can scale to support the billions of devices that are connected to the internet.
+
+Accuracy:- 90%
+
+
+12. Business Email Compromise Phishing Detection Based on Machine Learning: A Systematic Literature Review
+(https://www.mdpi.com/2079-9292/12/1/42 )
+
+approach:- Use of feature selection under supervised learning from database to refer values.
+Uses:-
+Keyword matching: BEC detection algorithms can be trained to identify BEC emails by looking for certain keywords or phrases.
+Machine learning: BEC detection algorithms can be trained to identify BEC emails by looking for patterns in the content of BEC emails.
+Human review: BEC detection algorithms can also be used to flag emails as suspicious, which can then be reviewed by humans to determine if they are BEC emails.
+
+drawbacks:-
+Overfitting: BEC detection algorithms can overfit to the dataset used to train them. This means that the algorithm may be able to accurately identify BEC emails in the dataset used to train it, but it may not be able to accurately identify BEC emails in the real world.
+Limited scope: BEC datasets can only capture a limited set of BEC email techniques. This means that BEC detection algorithms trained on a BEC dataset may not be able to identify BEC emails that use new or uncommon techniques.
+Data bias: BEC datasets can be biased towards certain types of BEC emails or certain industries. This means that BEC detection algorithms trained on a BEC dataset may not be able to accurately identify BEC emails that are different from the emails in the dataset.
+Cost: Collecting and labeling BEC emails can be costly. This means that high-quality BEC datasets can be expensive to obtain.
+
+Accuracy:- 95%
+
+
+1. Mental Models of Domain Names and URLs :- 2020
+
+(https://www.usenix.org/system/files/soups2020_poster_roberts.pdf)
+
+What is K?
+-
+Krippendorff's alpha (α) is a statistical measure of inter-rater reliability (IRR) for nominal data. It is a generalization of Scott's pi (π) and Cohen's kappa (κ) coefficients, and it is more robust to violations of their underlying assumptions. Krippendorff's alpha is calculated as:
+α = (Do - De) / (Do - 1)
+Where Do is the observed disagreement among the raters, and De is the expected disagreement among the raters if they were rating randomly. Krippendorff's alpha can range from 0 to 1, with higher values indicating greater reliability.
+Disadvantages:- 
+Computations are more complex than alternative metrics. Krippendorff's alpha is calculated using a complex mathematical formula, which can be difficult to implement without the use of statistical software.
+•If the agreement expected by chance is high enough, Krippendorff's alpha will stay relatively low no matter how often the real-world raters agree. This is because Krippendorff's alpha is a ratio of the observed disagreement to the expected disagreement. If the expected disagreement is high, then the ratio will be low, even if the observed disagreement is low.
+•No theoretical way to figure out significance thresholds — have to use bootstrapping. Bootstrapping is a statistical method that can be used to estimate the significance of Krippendorff's alpha, but it can be computationally intensive.
+In addition to these disadvantages, it is important to note that Krippendorff's alpha is only a measure of inter-rater reliability. It does not measure other important aspects of data quality, such as validity or bias.
+Accuracy:-
+The worst initial accuracy of Krippendorff’s α reported across the literature is 92%. This was reported by Gwet in a 2013 study. 
